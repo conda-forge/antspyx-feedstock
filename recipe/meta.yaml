@@ -20,7 +20,8 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - ninja
+    - make  # [unix]
+    - ninja  # [win]
     - scikit-build
     - cmake >=3.18
     - ants
