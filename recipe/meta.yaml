@@ -43,6 +43,8 @@ requirements:
     - matplotlib-base
     - pillow
     - requests
+    - scikit-learn
+    - scipy <1.16
 
 test:
   imports:
