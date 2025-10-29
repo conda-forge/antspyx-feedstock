@@ -13,7 +13,7 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -37,7 +37,7 @@ requirements:
     - python
     - pandas
     - pyyaml
-    - numpy <=2.0.1
+    - numpy
     - statsmodels
     - webcolors
     - matplotlib-base
