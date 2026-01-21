@@ -1,5 +1,5 @@
 {% set name = "antspyx" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/antspyx-{{ version }}.tar.gz
-  sha256: fd3f3a1749fb5a22b5ef3e73be17bcf2d8cf30636796abe04b1ea356d449a193
+  sha256: 7973855ee286f8b45b816fd9da9b9ea5b11f3d6557f783147cb68ccd8d0adc6a
   patches:
     - itk_patch.diff
 
